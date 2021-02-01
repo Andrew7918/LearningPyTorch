@@ -1,0 +1,75 @@
+
+UnNormalized v1 Parameters :
+
+SGD with momentum
+10 epochs
+unnormalized
+RMSE
+lr - 0.0001
+We get an averaged test loss of 11.559852639605994.
+------------------------------------------------------------------------
+UnNormalized v2 Parameters :
+
+SGD with momentum
+10 epochs
+unnormalized
+RMSE
+lr - 0.00001
+We get an averaged test loss of 15.655083044918916
+------------------------------------------------------------------------
+UnNormalized v3 Parameters :
+
+SGD with momentum
+10 epochs
+unnormalized
+RMSE
+weight decay (L2) - 0.01
+lr - 0.0001
+We get an averaged test loss of 12.245280777388832
+------------------------------------------------------------------------
+UnNormalized v4 Parameters :
+
+ADAM
+10 epochs
+unnormalized
+RMSE
+lr - 0.0001
+We get an averaged test loss of 125.97540926785484
+------------------------------------------------------------------------
+UnNormalized v5 Parameters :
+
+ADAM
+20 epochs
+unnormalized
+RMSE
+lr - 0.001
+We get an averaged test loss of 14.332120224583054
+------------------------------------------------------------------------
+UnNormalized v6 Parameters :
+
+ADAM
+20 epochs
+unnormalized
+RMSE
+lr - 0.0001
+weight decay (L2) - 0.01
+We get an averaged test loss of 46.89324450016691
+------------------------------------------------------------------------
+UnNormalized v7 Parameters :
+
+ADAM
+20 epochs
+unnormalized
+RMSE
+lr - 0.001
+weight decay (L2) - 0.01
+We get an averaged test loss of 14.525197051236958
+------------------------------------------------------------------------
+Normalized v1 Parameters :
+SGD with momentum
+10 epochs
+unnormalized
+RMSE
+lr - 0.0001 We get an averaged test loss of 1.841047557622467 (Note that this is not very reflective 
+of model's power since RMSE calculated based on normalized values). 
+In reality the loss is much higher than the unnormalized version, with the same parameters. You can also see this by comparing UnNormalized_v1.png and Normalized_v1.png
