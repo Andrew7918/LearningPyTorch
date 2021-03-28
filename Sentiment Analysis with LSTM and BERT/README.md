@@ -11,11 +11,6 @@ The code is documented with explanations to help you learn various aspects of Py
 4. Model training 
 5. Model and results evaluation 
 
-## Installation
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-
 
 ## Usage
 The code was originally written in Google Colab, so to access the colab file directly click this [link](https://colab.research.google.com/drive/1F_jX_jqVZejysRCN631Vpn6uR92v-d7E?usp=sharing). Feel free to make a copy and play around with it.
